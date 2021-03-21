@@ -359,8 +359,7 @@ def main_worker(args):
                          title='Gradient Norm', ylabel='value')
         results.save()
 
-        print(val_results)
-        if val_results['prec1'] >= 94: break
+        if val_results['prec1'] >= 92: break
 
 if __name__ == '__main__':
     main()
